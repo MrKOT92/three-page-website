@@ -1,0 +1,29 @@
+.nav {
+  list-style-type: none;
+  text-align: center;
+  margin: auto;
+  padding: 20;
+}
+.nav li {
+  display: inline-flex;
+  font-size: 25px;
+  padding: 10px;
+}
+.lp {
+  float: left;
+  margin-left: 4%;
+  font-weight: bolder;
+}
+.intro {
+  background-color: rgb(214, 213, 199);
+  /* text-align: center; */
+  background-color: rgb(214, 213, 199);
+  width: 37%;
+  /* margin: auto; */
+  /* margin-left: 10px; */
+  margin: auto;
+}
+.introlist {
+  position: absolute;
+  left: 37.5%;
+}
