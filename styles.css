@@ -1,29 +1,26 @@
 .nav {
-  list-style-type: none;
-  text-align: center;
+  width: 900px;
+  text-align: right;
   margin: auto;
-  padding: 20;
 }
 .nav li {
   display: inline-flex;
-  font-size: 25px;
   padding: 10px;
 }
-.lp {
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+#logo {
   float: left;
-  margin-left: 4%;
-  font-weight: bolder;
+  font-weight: 600;
 }
 .intro {
-  background-color: rgb(214, 213, 199);
-  /* text-align: center; */
-  background-color: rgb(214, 213, 199);
+  padding: 100px 0;
   width: 37%;
-  /* margin: auto; */
-  /* margin-left: 10px; */
   margin: auto;
 }
-.introlist {
-  position: absolute;
-  left: 37.5%;
+ul.introlist a {
+  color: black;
+  text-decoration: underline;
 }
